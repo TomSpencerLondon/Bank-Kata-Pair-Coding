@@ -28,6 +28,4 @@ class TransactionRepositoryShould {
     assertEquals(1, transactionRepository.getTransactions().size());
     assertEquals(transactionRepository.getTransactions().get(0), new Transaction(1000, "13/04/2014"));
   }
-
-
 }

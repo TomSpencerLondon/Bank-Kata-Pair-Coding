@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515c2219-3751-4a33-8dd5-604e761bd7c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/TransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank_kata/AccountFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank_kata/AccountFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank_kata/AccountShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank_kata/AccountShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank_kata/TransactionRepositoryShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank_kata/TransactionRepositoryShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BankKataPair.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank_kata/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank_kata/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank_kata/Clock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank_kata/Clock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank_kata/Console.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank_kata/Console.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank_kata/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank_kata/Transaction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank_kata/TransactionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank_kata/TransactionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/BankKataPair.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank_kata/AccountFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank_kata/AccountFeature.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank_kata/AccountShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank_kata/AccountShould.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank_kata/TransactionRepositoryShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank_kata/TransactionRepositoryShould.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -72,7 +66,7 @@
       <recent name="com.codurance.bank_kata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TransactionRepositoryShould.add_transaction">
+  <component name="RunManager" selected="JUnit.AccountShould.print_statement">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -130,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountShould.add_a_deposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BankKataPair" />
+    <configuration name="AccountShould.print_statement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bank-Kata-Pair-Coding" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.codurance.bank_kata.*" />
@@ -140,7 +134,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.codurance.bank_kata" />
       <option name="MAIN_CLASS_NAME" value="com.codurance.bank_kata.AccountShould" />
-      <option name="METHOD_NAME" value="add_a_deposit" />
+      <option name="METHOD_NAME" value="print_statement" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TransactionRepositoryShould.add_transaction" />
-        <item itemvalue="JUnit.AccountShould" />
+        <item itemvalue="JUnit.AccountShould.print_statement" />
         <item itemvalue="JUnit.AccountFeature" />
         <item itemvalue="JUnit.TransactionRepositoryShould" />
-        <item itemvalue="JUnit.AccountShould.add_a_deposit" />
+        <item itemvalue="JUnit.TransactionRepositoryShould.add_transaction" />
+        <item itemvalue="JUnit.AccountShould" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584436674591</updated>
       <workItem from="1584436681771" duration="6907000" />
-      <workItem from="1584444070145" duration="446000" />
+      <workItem from="1584444070145" duration="1286000" />
     </task>
     <task id="LOCAL-00001" summary="Add AccountFeature test, AccountShould with withdraw and desposit methods and TransactionRepository">
       <created>1584441597680</created>
@@ -258,29 +252,37 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="286" y="83" key="#TransactionRepositoryShould/0.23.1440.797@0.23.1440.797" timestamp="1584444212240" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1584444507784">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1584445256134">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1584444507784" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1584444507783">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1584445256134" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1584445256133">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1584444507783" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1584444507782">
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1584445256133" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1584445256132">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1584444507782" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1584444507784">
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1584445256132" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1584445256133">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1584444507784" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1584445256133" />
     <state x="221" y="23" key="SettingsEditor" timestamp="1584444174337">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="221" y="23" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1584444174337" />
-    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1584444471489">
+    <state x="483" y="171" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584445283853">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1584444471489" />
+    <state x="483" y="171" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.797@0.23.1440.797" timestamp="1584445283853" />
+    <state x="482" y="35" key="refactoring.ChangeSignatureDialog" timestamp="1584445146495">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="482" y="35" key="refactoring.ChangeSignatureDialog/0.23.1440.797@0.23.1440.797" timestamp="1584445146495" />
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1584445356506">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1584445356506" />
   </component>
 </project>

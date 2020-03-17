@@ -3,9 +3,11 @@ package com.codurance.bank_kata;
 public class Account {
 
   private TransactionRepository transactionRepository;
+  private Formatter formatter;
 
-  public Account(TransactionRepository transactionRepository) {
+  public Account(TransactionRepository transactionRepository, Formatter formatter) {
     this.transactionRepository = transactionRepository;
+    this.formatter = formatter;
   }
 
   public void deposit(int amount) {
@@ -17,6 +19,6 @@ public class Account {
   }
 
   public void printStatement() {
-    throw new UnsupportedOperationException();
+    formatter.print(transactionRepository.getTransactions());
   }
 }

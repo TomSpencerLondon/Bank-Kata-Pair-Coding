@@ -2,7 +2,6 @@ package com.codurance.bank_kata;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.InOrder;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
@@ -22,12 +21,12 @@ public class AccountFeature {
 
   @Mock
   Console console;
-  private TransactionRepository transactionRepository;
 
   @BeforeEach
   void setUp() {
-    transactionRepository = new TransactionRepository(clock);
-    account = new Account(transactionRepository);
+    TransactionRepository transactionRepository = new TransactionRepository(clock);
+    Formatter formatter = new Formatter();
+    account = new Account(transactionRepository, formatter);
     console = new Console();
   }
 

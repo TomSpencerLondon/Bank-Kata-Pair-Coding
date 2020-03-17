@@ -6,8 +6,8 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.verify;
+import static java.util.Arrays.asList;
+import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 class AccountShould {
@@ -15,10 +15,12 @@ class AccountShould {
   TransactionRepository transactionRepository;
 
   private Account account;
+  @Mock
+  private Formatter formatter;
 
   @BeforeEach
   void setUp() {
-    account = new Account(transactionRepository);
+    account = new Account(transactionRepository, formatter);
   }
 
   @Test
@@ -31,5 +33,14 @@ class AccountShould {
   void withdraw() {
     account.withdraw(500);
     verify(transactionRepository, times(1)).addTransaction(-500);
+  }
+
+  @Test
+  void print_statement() {
+    when(transactionRepository.getTransactions()).thenReturn(asList(
+            new Transaction(100, "13/04/2014")
+    ));
+    account.printStatement();
+    verify(formatter, times(1)).print(transactionRepository.getTransactions());
   }
 }
