@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515c2219-3751-4a33-8dd5-604e761bd7c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/Console.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/TransactionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank_kata/AccountFeature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank_kata/AccountShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/Clock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank_kata/TransactionRepositoryShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/TransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank_kata/AccountFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank_kata/AccountFeature.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +30,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -66,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountShould">
+  <component name="RunManager" selected="JUnit.TransactionRepositoryShould">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -134,6 +134,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransactionRepositoryShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankKataPair" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codurance.bank_kata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codurance.bank_kata" />
+      <option name="MAIN_CLASS_NAME" value="com.codurance.bank_kata.TransactionRepositoryShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.codurance.bank_kata in BankKataPair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankKataPair" />
       <extension name="coverage">
@@ -150,10 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TransactionRepositoryShould" />
+        <item itemvalue="JUnit.AccountFeature" />
         <item itemvalue="JUnit.AccountShould" />
         <item itemvalue="JUnit.AccountShould.add_a_deposit" />
         <item itemvalue="JUnit.com.codurance.bank_kata in BankKataPair" />
-        <item itemvalue="JUnit.AccountFeature" />
       </list>
     </recent_temporary>
   </component>
@@ -167,8 +183,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584436674591</updated>
-      <workItem from="1584436681771" duration="4678000" />
+      <workItem from="1584436681771" duration="6439000" />
     </task>
+    <task id="LOCAL-00001" summary="Add AccountFeature test, AccountShould with withdraw and desposit methods and TransactionRepository">
+      <created>1584441597680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584441597680</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,5 +208,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add AccountFeature test, AccountShould with withdraw and desposit methods and TransactionRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add AccountFeature test, AccountShould with withdraw and desposit methods and TransactionRepository" />
   </component>
 </project>

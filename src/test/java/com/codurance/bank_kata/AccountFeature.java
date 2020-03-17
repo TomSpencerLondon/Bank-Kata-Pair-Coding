@@ -17,6 +17,8 @@ import static org.mockito.Mockito.*;
 public class AccountFeature {
 
   private Account account;
+  @Mock
+  Clock clock;
 
   @Mock
   Console console;
@@ -24,7 +26,7 @@ public class AccountFeature {
 
   @BeforeEach
   void setUp() {
-    transactionRepository = new TransactionRepository();
+    transactionRepository = new TransactionRepository(clock);
     account = new Account(transactionRepository);
     console = new Console();
   }
