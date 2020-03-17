@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="515c2219-3751-4a33-8dd5-604e761bd7c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/Clock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank_kata/TransactionRepositoryShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank_kata/TransactionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank_kata/AccountFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank_kata/AccountFeature.java" afterDir="false" />
-    </list>
+    <list default="true" id="515c2219-3751-4a33-8dd5-604e761bd7c6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584436674591</updated>
-      <workItem from="1584436681771" duration="6439000" />
+      <workItem from="1584436681771" duration="6907000" />
     </task>
     <task id="LOCAL-00001" summary="Add AccountFeature test, AccountShould with withdraw and desposit methods and TransactionRepository">
       <created>1584441597680</created>
@@ -192,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584441597680</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added mock Clock, methods on TransactionRepository, add Clock to TransactionRepository constructor.">
+      <created>1584443471981</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584443471981</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +211,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add AccountFeature test, AccountShould with withdraw and desposit methods and TransactionRepository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add AccountFeature test, AccountShould with withdraw and desposit methods and TransactionRepository" />
+    <MESSAGE value="Added mock Clock, methods on TransactionRepository, add Clock to TransactionRepository constructor." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added mock Clock, methods on TransactionRepository, add Clock to TransactionRepository constructor." />
   </component>
 </project>
