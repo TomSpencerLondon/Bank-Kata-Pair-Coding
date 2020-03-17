@@ -26,5 +26,8 @@ class TransactionRepositoryShould {
     when(clock.date()).thenReturn("13/04/2014");
     transactionRepository.addTransaction(1000);
     assertEquals(1, transactionRepository.getTransactions().size());
+    assertEquals(transactionRepository.getTransactions().get(0), new Transaction(1000, "13/04/2014"));
   }
+
+
 }

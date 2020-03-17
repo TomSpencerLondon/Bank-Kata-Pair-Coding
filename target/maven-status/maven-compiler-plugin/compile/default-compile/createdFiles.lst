@@ -1,0 +1,5 @@
+com/codurance/bank_kata/Transaction.class
+com/codurance/bank_kata/Console.class
+com/codurance/bank_kata/TransactionRepository.class
+com/codurance/bank_kata/Account.class
+com/codurance/bank_kata/Clock.class
